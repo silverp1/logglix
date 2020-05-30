@@ -20,7 +20,7 @@ defmodule Logglix.Mixfile do
     [
       {:credo, "~> 0.8.8", only: [:dev, :test]},
       {:ex_doc, ">= 0.18.1", only: :dev},
-      {:httpoison, "~> 0.13.0"}
+      {:httpoison, "~> 1.6.2"}
     ]
   end
 
